@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="es">
 <!-- Header Start -->
+
 <head>
     <title>Hotel Impala</title>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
-    <meta name="description" content="graphic" />
-    <meta name="keywords" content="hotal,hotal template,html template">
+    <meta name="description" content="Hotel Impala" />
+    <meta name="keywords" content="hotel, hotel impala">
     <meta name="MobileOptimized" content="320">
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.ico">
     <!---------start theme style---------->
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
     <link href="css/fonts.css" rel="stylesheet" type="text/css" />
@@ -17,6 +20,7 @@
     <link href="css/responsive.css" rel="stylesheet" type="text/css" />
 </head>
 <!-- Header End -->
+
 <body>
     <!-- PRELOADER -->
     <div id="preloader">
@@ -59,262 +63,297 @@
                 </div>
             </div>
         </div>
+        <!-- Formulario -->
         <div class="hotal_checkform_wrapper">
             <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="hotal_checkform text-center">
-                            <form>
-                                <select>
-                                    <option value="0">check in</option>
-                                    <option value="1">Saab</option>
-                                    <option value="2">Mercedes</option>
-                                    <option value="3">Audi</option>
-                                </select>
-                                <select>
-                                    <option value="0">check in</option>
-                                    <option value="1">Saab</option>
-                                    <option value="2">Mercedes</option>
-                                    <option value="3">Audi</option>
-                                </select>
-                                <select>
-                                    <option value="0">check in</option>
-                                    <option value="1">Saab</option>
-                                    <option value="2">Mercedes</option>
-                                    <option value="3">Audi</option>
-                                </select>
-                                <button class="btn2 btn_responsive">check now</button>
-                            </form>
+                <form>
+                    <div class="hotal_checkform text-center">
+                        <div class="row">
+                            <div class="form-header">
+                                <h1>Haz tu reservación</h1>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <span class="form-label">Entrada</span>
+                                    <input class="form-control" type="date" name="fecha_entrada" required>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <span class="form-label">Salida</span>
+                                    <input class="form-control" type="date" name="fecha_salida" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="form-group">
+                                    <span class="form-label">Número de habitaciones</span>
+                                    <select class="form-control">
+                                        <option value="">1</option>
+                                        <option value="">2</option>
+                                        <option value="">3</option>
+                                    </select>
+                                    <span class="select-arrow"></span>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="form-group">
+                                    <span class="form-label">Adultos</span>
+                                    <select class="form-control">
+                                        <option value="">1</option>
+                                        <option value="">2</option>
+                                        <option value="">3</option>
+                                    </select>
+                                    <span class="select-arrow"></span>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="form-group">
+                                    <span class="form-label">Niños</span>
+                                    <select name="" id="" class="form-control">
+                                        <option value="">0</option>
+                                        <option value="">1</option>
+                                        <option value="">2</option>
+                                    </select>
+                                    <span class="select-arrow"></span>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="form-btn">
+                                    <button class="btn submit-btn" type="">Comprobar Disponibilidad</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    <div class="hotal_about_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="hotal_about_content">
+                        <h1 class="heading">Discover a Hotel That Defines a New Dimension of Luxury.</h1>
+                        <div class="about_image">
+                            <img src="images/about.jpg" alt="" class="img-responsive">
+                            <div class="ovarlay"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <div class="about_room">
+                        <h2 class="subheading">About Deluxe rooms</h2>
+                        <p class="paragraph margin">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget urna at libero finibus pretium. Donec faucibus volutpat nisl ac placerat.</p><br>
+                        <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget urna at libero finibus pretium. Donec faucibus volutpat nisl ac placerat. Vestibulum odio turpis, volutpat at aliquet sit amet, volutpat eu lectus.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <div class="about_facility">
+                        <h2 class="subheading">Facilities</h2>
+                        <ul>
+                            <li class="paragraph">Family Rooms, Heating, Ironing facilities</li>
+                            <li class="paragraph">Tennis Court, Fitness Center, Spa, Massage</li>
+                            <li class="paragraph">Wi-Fi is available in the hotel roomsa</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hotal_ourrooms_wrapper text-center" id="deals">
+        <div class="container">
+            <div class="row">
+                <h1 class="heading padding_20">Our Rooms & Suites</h1>
+                <p class="paragraph text-center padding_60">Hotel Rooms Booking. No reservation costs. Great rates.</p>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="hotal_rooms btn_responsive">
+                        <img src="images/room1.jpg" alt="" class="img-responsive">
+                        <div class="hotal_rooms_detail text-center">
+                            <h2>Single Room</h2>
+                            <p class="paragraph">1 Person , Queen Bed , 3 Window</p>
+                            <span>From 35$/week</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="hotal_rooms btn_responsive">
+                        <img src="images/room2.jpg" alt="" class="img-responsive">
+                        <div class="hotal_rooms_detail text-center">
+                            <h2>double Room</h2>
+                            <p class="paragraph">1 Person , Queen Bed , 3 Window</p>
+                            <span>From 35$/week</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="hotal_rooms btn_responsive">
+                        <img src="images/room3.jpg" alt="" class="img-responsive">
+                        <div class="hotal_rooms_detail text-center">
+                            <h2>family Room</h2>
+                            <p class="paragraph">1 Person , Queen Bed , 3 Window</p>
+                            <span>From 35$/week</span>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="hotal_about_wrapper">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="hotal_about_content">
-                            <h1 class="heading">Discover a Hotel That Defines a New Dimension of Luxury.</h1>
-                            <div class="about_image">
-                                <img src="images/about.jpg" alt="" class="img-responsive">
-                                <div class="ovarlay"></div>
-                            </div>
+    </div>
+    <div class="hotal_priceing_wrapper">
+        <div class="container">
+            <div class="row">
+                <h1 class="heading padding_20">Rates and Booking</h1>
+                <p class="paragraph text-center padding_60 para_center">At Upstart, we pride ourselves on offering exceptional customer experiences for every client that walks through our doors.</p>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-8 col-sm-offset-0 col-lg-offset-0 col-md-offset-0 col-xs-offset-2">
+                    <div class="hotal_pricing_table text-center">
+                        <h6>start</h6>
+                        <div class="price">
+                            <span><span>$</span>00</span>
+                            /mo
+                        </div>
+                        <h3>Great for lunches</h3>
+                        <p class="paragraph">Attend any daily group session No booking required Caters to all fitness levels</p>
+                        <a href="#" class="btn2">start now</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-8 col-sm-offset-0 col-lg-offset-0 col-md-offset-0 col-xs-offset-2">
+                    <div class="hotal_pricing_table text-center">
+                        <h6>start</h6>
+                        <div class="price">
+                            <span><span>$</span>50</span>
+                            /mo
+                        </div>
+                        <h3>Ideal for dinner guests</h3>
+                        <p class="paragraph">Attend any daily group session No booking required Caters to all fitness levels</p>
+                        <a href="#" class="btn2">start now</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-sm-offset-3 col-lg-offset-0 col-md-offset-0 col-xs-offset-2 col-xs-8">
+                    <div class="hotal_pricing_table text-center">
+                        <h6>start</h6>
+                        <div class="price">
+                            <span><span>$</span>120</span>
+                            /mo
+                        </div>
+                        <h3>Suits large groups</h3>
+                        <p class="paragraph">Attend any daily group session No booking required Caters to all fitness level</p>
+                        <a href="#" class="btn2">start now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hotal_vedio_wrapper">
+        <div class="ovarlay">
+            <iframe class="youtube" src="https://www.youtube.com/embed/ot6ky9RU8TA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div class="hotal_happyclient_wrapper" id="testimonial">
+        <div class="container">
+            <div class="row">
+                <h1 class="heading padding_60">our happy client</h1>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="hotal_clients">
+                        <div class="client_img text-center">
+                            <img src="images/client1.jpg" class="img-responsive" alt="">
+                        </div>
+                        <div class="client_detail">
+                            <p class="paragraph">Laudantium, totam rem aperi, eaque ipsa quaea illo sol invente veritatis eta quasi architecto sach sunt voluptatem.</p>
+                            <h3><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></i><i class="fa fa-star" aria-hidden="true"></i></h3>
+                            <h2>Steave masare</h2><span>( CEO of Vesta )</span>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                        <div class="about_room">
-                            <h2 class="subheading">About Deluxe rooms</h2>
-                            <p class="paragraph margin">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget urna at libero finibus pretium. Donec faucibus volutpat nisl ac placerat.</p><br>
-                            <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget urna at libero finibus pretium. Donec faucibus volutpat nisl ac placerat. Vestibulum odio turpis, volutpat at aliquet sit amet, volutpat eu lectus.</p>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="hotal_clients">
+                        <div class="client_img text-center">
+                            <img src="images/client2.jpg" class="img-responsive" alt="">
                         </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                        <div class="about_facility">
-                            <h2 class="subheading">Facilities</h2>
-                            <ul>
-                                <li class="paragraph">Family Rooms, Heating, Ironing facilities</li>
-                                <li class="paragraph">Tennis Court, Fitness Center, Spa, Massage</li>
-                                <li class="paragraph">Wi-Fi is available in the hotel roomsa</li>
-                            </ul>
+                        <div class="client_detail">
+                            <p class="paragraph">Laudantium, totam rem aperi, eaque ipsa quaea illo sol invente veritatis eta quasi architecto sach sunt voluptatem.</p>
+                            <h3><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></i><i class="fa fa-star" aria-hidden="true"></i></h3>
+                            <h2>Hunna lucky</h2><span>( Manager of KST inc )</span>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="hotal_ourrooms_wrapper text-center" id="deals">
-            <div class="container">
-                <div class="row">
-                    <h1 class="heading padding_20">Our Rooms & Suites</h1>
-                    <p class="paragraph text-center padding_60">Hotel Rooms Booking. No reservation costs. Great rates.</p>
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                        <div class="hotal_rooms btn_responsive">
-                            <img src="images/room1.jpg" alt="" class="img-responsive">
-                            <div class="hotal_rooms_detail text-center">
-                                <h2>Single Room</h2>
-                                <p class="paragraph">1 Person , Queen Bed , 3 Window</p>
-                                <span>From 35$/week</span>
-                            </div>
-                        </div>
+    </div>
+    <div class="hotal_gallery_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <div class="hotal_gallery_content text-center">
+                        <h6>Gallery</h6>
+                        <h1>Feast your eyes</h1>
+                        <p class="paragraph">Stay connected with us <a>@truelander</a> for update and super special exclusive offers.</p>
+                        <a href="#">check now</a>
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                        <div class="hotal_rooms btn_responsive">
-                            <img src="images/room2.jpg" alt="" class="img-responsive">
-                            <div class="hotal_rooms_detail text-center">
-                                <h2>double Room</h2>
-                                <p class="paragraph">1 Person , Queen Bed , 3 Window</p>
-                                <span>From 35$/week</span>
-                            </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-10 col-xs-offset-1 col-lg-offset-0 col-md-offset-0 col-sm-offset-0">
+                    <div class="hotal_gallery">
+                        <div class="gallery1">
+                            <img src="images/gallery1.jpg" class="img-responsive" alt="">
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                        <div class="hotal_rooms btn_responsive">
-                            <img src="images/room3.jpg" alt="" class="img-responsive">
-                            <div class="hotal_rooms_detail text-center">
-                                <h2>family Room</h2>
-                                <p class="paragraph">1 Person , Queen Bed , 3 Window</p>
-                                <span>From 35$/week</span>
-                            </div>
+                        <div class="gallery2">
+                            <img src="images/gallery2.jpg" class="img-responsive" alt="">
+                        </div>
+                        <div class="gallery3">
+                            <img src="images/gallery3.jpg" class="img-responsive" alt="">
+                        </div>
+                        <div class="gallery3">
+                            <img src="images/gallery4.jpg" class="img-responsive" alt="">
+                        </div>
+                        <div class="gallery3 remove_margin">
+                            <img src="images/gallery5.jpg" class="img-responsive" alt="">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="hotal_priceing_wrapper">
-            <div class="container">
-                <div class="row">
-                    <h1 class="heading padding_20">Rates and Booking</h1>
-                    <p class="paragraph text-center padding_60 para_center">At Upstart, we pride ourselves on offering exceptional customer experiences for every client that walks through our doors.</p>
-                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-8 col-sm-offset-0 col-lg-offset-0 col-md-offset-0 col-xs-offset-2">
-                        <div class="hotal_pricing_table text-center">
-                            <h6>start</h6>
-                            <div class="price">
-                                <span><span>$</span>00</span>
-                                /mo
-                            </div>
-                            <h3>Great for lunches</h3>
-                            <p class="paragraph">Attend any daily group session No booking required Caters to all fitness levels</p>
-                            <a href="#" class="btn2">start now</a>
-                        </div>
+    </div>
+    <div class="hotal_bestprice_wrapper">
+        <div class="ovarlay">
+            <div class="hotal_bestprice_detail text-center">
+                <h1>Best price guaranteed!</h1>
+                <p class="paragraph">Aenean pellentesque enim in dignissim auctorn scelerisque mauris finibus ex malesuada placerat. Sed at efficitur liberoroin egetarcu porttitor, sollicitudin nunc.</p>
+                <a href="#" class="btn2">make reservation</a>
+            </div>
+        </div>
+    </div>
+    <div class="hotal_newsletter text-center">
+        <div class="container">
+            <div class="row">
+                <div class="newslatter_detail">
+                    <label>Subscribe to Newsletter</label>
+                    <input type="text" name="email" value="" placeholder="Enter Your Email">
+                    <a href="#" class="btn2 btn_responsive">submit</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hotal_footer_wrapper text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <div class="footer_text btn_responsive">
+                        <h6>&copy; 2016 Copyrights. All rights reserved.</h6>
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-8 col-sm-offset-0 col-lg-offset-0 col-md-offset-0 col-xs-offset-2">
-                        <div class="hotal_pricing_table text-center">
-                            <h6>start</h6>
-                            <div class="price">
-                                <span><span>$</span>50</span>
-                                /mo
-                            </div>
-                            <h3>Ideal for dinner guests</h3>
-                            <p class="paragraph">Attend any daily group session No booking required Caters to all fitness levels</p>
-                            <a href="#" class="btn2">start now</a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-6 col-sm-offset-3 col-lg-offset-0 col-md-offset-0 col-xs-offset-2 col-xs-8">
-                        <div class="hotal_pricing_table text-center">
-                            <h6>start</h6>
-                            <div class="price">
-                                <span><span>$</span>120</span>
-                                /mo
-                            </div>
-                            <h3>Suits large groups</h3>
-                            <p class="paragraph">Attend any daily group session No booking required Caters to all fitness level</p>
-                            <a href="#" class="btn2">start now</a>
-                        </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <div class="footer_social_icon btn_responsive">
+                        <ul>
+                            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-rss" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="hotal_vedio_wrapper">
-            <div class="ovarlay">
-                <a href="#"><i class="fa fa-play" aria-hidden="true"></i></a>
-            </div>
-        </div>
-        <div class="hotal_happyclient_wrapper" id="testimonial">
-            <div class="container">
-                <div class="row">
-                    <h1 class="heading padding_60">our happy client</h1>
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                        <div class="hotal_clients">
-                            <div class="client_img text-center">
-                                <img src="images/client1.jpg" class="img-responsive" alt="">
-                            </div>
-                            <div class="client_detail">
-                                <p class="paragraph">Laudantium, totam rem aperi, eaque ipsa quaea illo sol invente veritatis eta quasi architecto sach sunt voluptatem.</p>
-                                <h3><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></i><i class="fa fa-star" aria-hidden="true"></i></h3>
-                                <h2>Steave masare</h2><span>( CEO of Vesta )</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                        <div class="hotal_clients">
-                            <div class="client_img text-center">
-                                <img src="images/client2.jpg" class="img-responsive" alt="">
-                            </div>
-                            <div class="client_detail">
-                                <p class="paragraph">Laudantium, totam rem aperi, eaque ipsa quaea illo sol invente veritatis eta quasi architecto sach sunt voluptatem.</p>
-                                <h3><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></i><i class="fa fa-star" aria-hidden="true"></i></h3>
-                                <h2>Hunna lucky</h2><span>( Manager of KST inc )</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="hotal_gallery_wrapper">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                        <div class="hotal_gallery_content text-center">
-                            <h6>Gallery</h6>
-                            <h1>Feast your eyes</h1>
-                            <p class="paragraph">Stay connected with us <a>@truelander</a> for update and super special exclusive offers.</p>
-                            <a href="#">check now</a>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-10 col-xs-offset-1 col-lg-offset-0 col-md-offset-0 col-sm-offset-0">
-                        <div class="hotal_gallery">
-                            <div class="gallery1">
-                                <img src="images/gallery1.jpg" class="img-responsive" alt="">
-                            </div>
-                            <div class="gallery2">
-                                <img src="images/gallery2.jpg" class="img-responsive" alt="">
-                            </div>
-                            <div class="gallery3">
-                                <img src="images/gallery3.jpg" class="img-responsive" alt="">
-                            </div>
-                            <div class="gallery3">
-                                <img src="images/gallery4.jpg" class="img-responsive" alt="">
-                            </div>
-                            <div class="gallery3 remove_margin">
-                                <img src="images/gallery5.jpg" class="img-responsive" alt="">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="hotal_bestprice_wrapper">
-            <div class="ovarlay">
-                <div class="hotal_bestprice_detail text-center">
-                    <h1>Best price guaranteed!</h1>
-                    <p class="paragraph">Aenean pellentesque enim in dignissim auctorn scelerisque mauris finibus ex malesuada placerat. Sed at efficitur liberoroin egetarcu porttitor, sollicitudin nunc.</p>
-                    <a href="#" class="btn2">make reservation</a>
-                </div>
-            </div>
-        </div>
-        <div class="hotal_newsletter text-center">
-            <div class="container">
-                <div class="row">
-                    <div class="newslatter_detail">
-                        <label>Subscribe to Newsletter</label>
-                        <input type="text" name="email" value="" placeholder="Enter Your Email">
-                        <a href="#" class="btn2 btn_responsive">submit</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="hotal_footer_wrapper text-center">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                        <div class="footer_text btn_responsive">
-                            <h6>&copy; 2016 Copyrights. All rights reserved.</h6>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                        <div class="footer_social_icon btn_responsive">
-                            <ul>
-                                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-rss" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+    </div>
     </div>
     <!-----------theme js---------------->
     <script src="js/jquery.min.js" type="text/javascript"></script>

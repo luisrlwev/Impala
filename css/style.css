@@ -26,41 +26,54 @@ table of content:-
 1. primary css
 ------------------------------*/
 html * {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
-*, *:after, *:before {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+*,
+*:after,
+*:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
     font-size: 100%;
     font-family: 'Open Sans', sans-serif;
     color: #3e3947;
-    background:#fff;
-    color:#ccc;
-    font-size:1.2em;
-    line-height:1.2em;
+    background: #fff;
+    color: #ccc;
+    font-size: 1.2em;
+    line-height: 1.2em;
 }
-h1,h2,h3,h4,h5,h6,a,button{
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+button {
     font-family: 'Roboto', sans-serif;
 }
-body, html {
-  height: 100%;
-  position:relative;
+
+body,
+html {
+    height: 100%;
+    position: relative;
 }
 
 a {
-  color: #3e3947;
-  text-decoration: none;
+    color: #3e3947;
+    text-decoration: none;
 }
 
 img {
-  max-width: 100%;
+    max-width: 100%;
 }
+
 /*-----------------------------
 1. primary css
 ------------------------------*/
@@ -68,34 +81,37 @@ img {
 /***************************************
 2. Modules - reusable parts of our design start
 ****************************************/
-.btn1{
-    float:left;
-    height:30px;
-    line-height:30px;
-    border:1px solid rgba(255, 255, 255, 0.2);
-    border-radius:4px;
-    padding:0 20px;
-    transition:all 0.25s ease-in;
-    -webkit-transition:all 0.25s ease-in;
-    -moz-transition:all 0.25s ease-in;
-    -o-transition:all 0.25s ease-in;
-    -ms-transition:all 0.25s ease-in;
+.btn1 {
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+    padding: 0 20px;
+    transition: all 0.25s ease-in;
+    -webkit-transition: all 0.25s ease-in;
+    -moz-transition: all 0.25s ease-in;
+    -o-transition: all 0.25s ease-in;
+    -ms-transition: all 0.25s ease-in;
 }
-.btn1:hover{
-    background-color:#ffffff;
-    color:#a68b7c!important;
+
+.btn1:hover {
+    background-color: #ffffff;
+    color: #a68b7c !important;
 }
-.link{
-    font-size:15px;
-    font-weight:600;
-    color:#a68b7c;
-    clear:both;
-    padding-bottom:5px;
-    text-transform:uppercase;
-    text-decoration:none;
-    border-bottom:1px dashed #a68b7c;
+
+.link {
+    font-size: 15px;
+    font-weight: 600;
+    color: #a68b7c;
+    clear: both;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-bottom: 1px dashed #a68b7c;
 }
-.btn2{
+
+.btn2 {
     float: left;
     cursor: pointer;
     border: none;
@@ -106,25 +122,28 @@ img {
     background-color: #222222;
     color: #ffffff;
     font-size: 14px;
-    outline:none;
+    outline: none;
     font-weight: 600;
     padding: 0 30px;
-    transition:all 0.25s ease-in;
-    -webkit-transition:all 0.25s ease-in;
-    -moz-transition:all 0.25s ease-in;
-    -o-transition:all 0.25s ease-in;
-    -ms-transition:all 0.25s ease-in;
+    transition: all 0.25s ease-in;
+    -webkit-transition: all 0.25s ease-in;
+    -moz-transition: all 0.25s ease-in;
+    -o-transition: all 0.25s ease-in;
+    -ms-transition: all 0.25s ease-in;
 }
-.btn2:hover{
-    background-color:#a68b7c;
+
+.btn2:hover {
+    background-color: #a68b7c;
 }
-.hotal_main_wrapper{
-    width:100%;
-    float:left;
+
+.hotal_main_wrapper {
+    width: 100%;
+    float: left;
 }
-.heading{
+
+.heading {
     margin: 0 auto;
-    text-transform:capitalize;
+    text-transform: capitalize;
     width: 550px;
     line-height: 35px;
     font-size: 32px;
@@ -132,44 +151,53 @@ img {
     color: #222222;
     text-align: center;
 }
-.subheading{
-    width:100%;
-    float:left;
-    color:#222222;
-    font-size:20px;
-    line-height:24px;
-    font-weight:600;
-    padding:40px 0;
-    margin:0;
-    text-transform:uppercase;
+
+.subheading {
+    width: 100%;
+    float: left;
+    color: #222222;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+    padding: 40px 0;
+    margin: 0;
+    text-transform: uppercase;
 }
-.paragraph{
+
+.paragraph {
     clear: both;
-    font-size:15px;
-    line-height:26px;
-    color:#777777;
-    font-weight:400;
-    margin-bottom:0;
+    font-size: 15px;
+    line-height: 26px;
+    color: #777777;
+    font-weight: 400;
+    margin-bottom: 0;
 }
-.para_center{
-    width:550px;
-    margin:0 auto;
+
+.para_center {
+    width: 550px;
+    margin: 0 auto;
 }
-.margin{
-    margin-bottom:40px;
+
+.margin {
+    margin-bottom: 40px;
 }
-.padding_20{
-    padding-bottom:20px;
+
+.padding_20 {
+    padding-bottom: 20px;
 }
-.padding_60{
-    padding-bottom:60px;
+
+.padding_60 {
+    padding-bottom: 60px;
 }
-.padding_40{
-    padding-bottom:40px;
+
+.padding_40 {
+    padding-bottom: 40px;
 }
-.remove_margin{
-    margin-right:0!Important;
+
+.remove_margin {
+    margin-right: 0 !Important;
 }
+
 /***************************************
 2. Modules - reusable parts of our design end
 ****************************************/
@@ -177,99 +205,113 @@ img {
 /***************************************
 3. header start
 ****************************************/
-.hotal_main_wrapper .hotal_header_wrapper{
-    width:100%;
-    float:left;
-    position:relative;
-    background-image:url('../images/bg1.jpg');
-    background-position:center center;
-    background-repeat:no-repeat;
-    background-size:cover;
-    margin-bottom:50px;
+.hotal_main_wrapper .hotal_header_wrapper {
+    width: 100%;
+    float: left;
+    position: relative;
+    background-image: url('../images/bg1.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
 }
-.hotal_header_wrapper .ovarlay{
-    position:absolute;
-    left:0;
-    right:0;
-    top:0;
-    bottom:0;
-    background-color:rgba(0, 0, 0, 0.5);
+
+.hotal_header_wrapper .ovarlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
 }
-.hotal_header_wrapper .hotal_header{
-    width:100%;
-    float:left;
-    padding:35px 0;
+
+.hotal_header_wrapper .hotal_header {
+    width: 100%;
+    float: left;
+    padding: 35px 0;
 }
-.hotal_header .hotal_logo{
-    float:left;
+
+.hotal_header .hotal_logo {
+    float: left;
 }
-.hotal_header .hotal_logo h2{
-    margin:0;
-    float:left;
-    width:100%;
-    font-size:20px;
-    font-weight:600;
+
+.hotal_header .hotal_logo h2 {
+    margin: 0;
+    float: left;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 600;
     line-height: 30px;
-    color:#ffffff;
-    text-transform:uppercase;
+    color: #ffffff;
+    text-transform: uppercase;
 }
-.hotal_header .hotal_menu{
-    float:right;
+
+.hotal_header .hotal_menu {
+    float: right;
 }
-.hotal_header .hotal_menu >ul{
-    margin:0;
-    padding:0;
-    list-style:none;
+
+.hotal_header .hotal_menu>ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
-.hotal_header .hotal_menu >ul >li{
-    float:left;
-    margin-right:20px;
+
+.hotal_header .hotal_menu>ul>li {
+    float: left;
+    margin-right: 20px;
 }
-.hotal_header .hotal_menu ul li:last-child{
-    margin-right:0;
+
+.hotal_header .hotal_menu ul li:last-child {
+    margin-right: 0;
 }
-.hotal_header .hotal_menu >ul >li a{
-    font-size:13px;
-    letter-spacing:0.2px;
-    text-transform:uppercase;
-    color:#ffffff;
-    font-weight:500;
-    float:left;
-    line-height:30px;
-    text-decoration:none;
+
+.hotal_header .hotal_menu>ul>li a {
+    font-size: 13px;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 500;
+    float: left;
+    line-height: 30px;
+    text-decoration: none;
 }
-.hotal_header_wrapper .hotal_detail{
-    float:left;
-    padding:242px 0;
-    width:100%;
+
+.hotal_header_wrapper .hotal_detail {
+    float: left;
+    padding: 242px 0;
+    width: 100%;
 }
-.hotal_header_wrapper .hotal_detail .center{
-    width:665px;
-    margin:0 auto;
-    display:inline-block;
+
+.hotal_header_wrapper .hotal_detail .center {
+    width: 665px;
+    margin: 0 auto;
+    display: inline-block;
 }
-.hotal_header_wrapper .hotal_detail h1{
-    font-size:55px;
-    float:left;
-    width:100%;
-    margin:0;
-    font-weight:600;
-    text-transform:capitalize;
-    color:#ffffff;
-    line-height:55px;
-    padding-bottom:27px;
+
+.hotal_header_wrapper .hotal_detail h1 {
+    font-size: 55px;
+    float: left;
+    width: 100%;
+    margin: 0;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #ffffff;
+    line-height: 55px;
+    padding-bottom: 27px;
 }
-.hotal_header_wrapper .hotal_detail h6{
-    font-size:17px;
-    float:left;
-    width:100%;
-    text-transform:capitalize;
-    color:#ffffff;
-    padding-bottom:40px;
-    font-weight:500;
-    margin:0;
-    line-height:23px;
+
+.hotal_header_wrapper .hotal_detail h6 {
+    font-size: 17px;
+    float: left;
+    width: 100%;
+    text-transform: capitalize;
+    color: #ffffff;
+    padding-bottom: 40px;
+    font-weight: 500;
+    margin: 0;
+    line-height: 23px;
 }
+
 /***************************************
 3. header end
 ****************************************/
@@ -277,35 +319,39 @@ img {
 /***************************************
 4. check form start
 ****************************************/
-.hotal_main_wrapper .hotal_checkform_wrapper{
-    width:100%;
-    float:left;
-    padding:50px 0;
+.hotal_main_wrapper .hotal_checkform_wrapper {
+    width: 100%;
+    float: left;
+    padding: 50px 0;
 }
-.hotal_checkform_wrapper .hotal_checkform{
-    width:100%;
-    float:left;
-    background-color:#f6f6f6;
+
+.hotal_checkform_wrapper .hotal_checkform {
+    width: 100%;
+    float: left;
+    background-color: #f6f6f6;
     padding: 45px 28.5px;
 }
-.hotal_checkform form{
-    width:100%;
-    float:left;
+
+.hotal_checkform form {
+    width: 100%;
+    float: left;
 }
-.hotal_checkform form select{
-    float:left;
-    width:294px;
-    height:50px;
-    line-height:50px;
-    background-color:#ffffff;
-    color:#777777;
-    padding:0 19px;
-    outline:none;
-    font-weight:300;
-    margin-right:20px;
-    border:1px solid #e7e7e7;
-    border-radius:0px;
+
+.hotal_checkform form select {
+    float: left;
+    width: 294px;
+    height: 50px;
+    line-height: 50px;
+    background-color: #ffffff;
+    color: #777777;
+    padding: 0 19px;
+    outline: none;
+    font-weight: 300;
+    margin-right: 20px;
+    border: 1px solid #e7e7e7;
+    border-radius: 0px;
 }
+
 /***************************************
 4. check form end
 ****************************************/
@@ -313,63 +359,73 @@ img {
 /***************************************
 5. about wrapper start
 ****************************************/
-.hotal_main_wrapper .hotal_about_wrapper{
-    width:100%;
-    float:left;
-    padding:50px 0;
+.hotal_main_wrapper .hotal_about_wrapper {
+    width: 100%;
+    float: left;
+    padding: 50px 0;
 }
-.hotal_about_wrapper .hotal_about_content{
-    width:100%;
-    float:left;
+
+.hotal_about_wrapper .hotal_about_content {
+    width: 100%;
+    float: left;
 }
-.hotal_about_content .about_image{
-    width:100%;
-    float:left;
-    margin-top:60px;
-    position:relative
+
+.hotal_about_content .about_image {
+    width: 100%;
+    float: left;
+    margin-top: 60px;
+    position: relative
 }
-.about_image .ovarlay{
-    position:absolute;
-    left:0;
-    top:0;
-    right:0;
-    bottom:0;
-    background-color:rgba(0, 0, 0, 0.2);
+
+.about_image .ovarlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.2);
 }
-.hotal_about_wrapper .about_room{
-    width:100%;
-    float:left;
-    padding-bottom:20px;
+
+.hotal_about_wrapper .about_room {
+    width: 100%;
+    float: left;
+    padding-bottom: 20px;
 }
-.hotal_about_wrapper .about_facility{
-    width:100%;
-    float:left;
-    padding-bottom:20px;
+
+.hotal_about_wrapper .about_facility {
+    width: 100%;
+    float: left;
+    padding-bottom: 20px;
 }
-.hotal_about_wrapper .about_facility ul{
-    margin:0;
-    padding:0;
-    list-style:none;
+
+.hotal_about_wrapper .about_facility ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
-.hotal_about_wrapper .about_facility ul li{
-    float:left;
-    width:100%;
-    padding:18px 0;
-    margin-right:25px;
-    position:relative;
+
+.hotal_about_wrapper .about_facility ul li {
+    float: left;
+    width: 100%;
+    padding: 18px 0;
+    margin-right: 25px;
+    position: relative;
 }
-.hotal_about_wrapper .about_facility ul li:after{
-    position:absolute;
-    content:'';
-    width:470px;
-    height:1px;
-    background-color:#ececec;
-    left:0;
-    bottom:0;
+
+.hotal_about_wrapper .about_facility ul li:after {
+    position: absolute;
+    content: '';
+    width: 470px;
+    height: 1px;
+    background-color: #ececec;
+    left: 0;
+    bottom: 0;
 }
-.hotal_about_wrapper .about_facility ul li:first-child{
-    padding-top:0;
+
+.hotal_about_wrapper .about_facility ul li:first-child {
+    padding-top: 0;
 }
+
 /***************************************
 5. about wrapper end
 ****************************************/
@@ -377,42 +433,47 @@ img {
 /***************************************
 6. our rooms start
 ****************************************/
-.hotal_main_wrapper .hotal_ourrooms_wrapper{
-    width:100%;
-    float:left;
-    background-color:#f8f8f8;
-    margin:50px 0;
-    padding:118px 0;
+.hotal_main_wrapper .hotal_ourrooms_wrapper {
+    width: 100%;
+    float: left;
+    background-color: #f8f8f8;
+    margin: 50px 0;
+    padding: 118px 0;
 }
-.hotal_ourrooms_wrapper .hotal_rooms{
-    width:100%;
-    float:left;
-    margin-bottom:42px;
+
+.hotal_ourrooms_wrapper .hotal_rooms {
+    width: 100%;
+    float: left;
+    margin-bottom: 42px;
 }
-.hotal_rooms .hotal_rooms_detail{
-    float:left;
-    width:100%;
-    background-color:#ffffff;
-    padding:30px 0;
-    border:1px solid #e4e4e4;
+
+.hotal_rooms .hotal_rooms_detail {
+    float: left;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 30px 0;
+    border: 1px solid #e4e4e4;
 }
-.hotal_rooms_detail h2{
-    font-size:14px;
-    font-weight:500;
-    line-height:26px;
-    padding-bottom:10px;
-    color:#222222;
-    text-transform:uppercase;
-    margin:0;
+
+.hotal_rooms_detail h2 {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 26px;
+    padding-bottom: 10px;
+    color: #222222;
+    text-transform: uppercase;
+    margin: 0;
 }
-.hotal_rooms_detail span{
-    color:#a68b7c;
+
+.hotal_rooms_detail span {
+    color: #a68b7c;
     font-family: 'Roboto', sans-serif;
-    font-size:15px;
-    line-height:24px;
-    padding-top:15px;
-    display:block;
+    font-size: 15px;
+    line-height: 24px;
+    padding-top: 15px;
+    display: block;
 }
+
 /***************************************
 6. our rooms end
 ****************************************/
@@ -420,70 +481,80 @@ img {
 /***************************************
 7. pricing start
 ****************************************/
-.hotal_main_wrapper .hotal_priceing_wrapper{
-    width:100%;
-    float:left;
-    padding:50px 0;
+.hotal_main_wrapper .hotal_priceing_wrapper {
+    width: 100%;
+    float: left;
+    padding: 50px 0;
 }
-.hotal_priceing_wrapper .hotal_pricing_table{
-    width:100%;
-    float:left;
-    border:1px solid #dadada;
-    padding:46px 20px;
-    margin-bottom:20px;
+
+.hotal_priceing_wrapper .hotal_pricing_table {
+    width: 100%;
+    float: left;
+    border: 1px solid #dadada;
+    padding: 46px 20px;
+    margin-bottom: 20px;
 }
-.hotal_pricing_table h6{
-    font-size:14px;
-    text-transform:uppercase;
-    font-weight:500;
-    line-height:27px;
-    padding-bottom:40px;
-    color:#222222;
-    margin:0;
+
+.hotal_pricing_table h6 {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 27px;
+    padding-bottom: 40px;
+    color: #222222;
+    margin: 0;
 }
-.hotal_pricing_table .price{
-    width:100%;
-    float:left;
-    font-size:20px;
-    line-height:27px;
-    color:#222222;
-    padding-bottom:30px;
-    font-weight:400;
+
+.hotal_pricing_table .price {
+    width: 100%;
+    float: left;
+    font-size: 20px;
+    line-height: 27px;
+    color: #222222;
+    padding-bottom: 30px;
+    font-weight: 400;
 }
-.hotal_pricing_table .price>span>span{
+
+.hotal_pricing_table .price>span>span {
     position: absolute;
     font-size: 20px;
     top: 18px;
     left: -10px;
 }
-.hotal_pricing_table .price>span{
-    font-size:80px;
-    font-weight:500;
-    position:relative;
+
+.hotal_pricing_table .price>span {
+    font-size: 80px;
+    font-weight: 500;
+    position: relative;
 }
-.hotal_pricing_table .btn2{
+
+.hotal_pricing_table .btn2 {
     float: none;
     display: inline-block;
-    background-color:#a68b7c;
-    padding:0 20px;
-    border:1px solid #dadada;
+    background-color: #a68b7c;
+    padding: 0 20px;
+    border: 1px solid #dadada;
 }
-.hotal_pricing_table .btn2:hover{
-    background-color:#222222;
+
+.hotal_pricing_table .btn2:hover {
+    background-color: #222222;
 }
-.hotal_pricing_table h3{
-    font-size:16px;
-    margin:0;
-    padding-bottom:23px;
-    font-weight:500;
-    float:left;
-    width:100%;
-    color:#222222;
+
+.hotal_pricing_table h3 {
+    font-size: 16px;
+    margin: 0;
+    padding-bottom: 23px;
+    font-weight: 500;
+    float: left;
+    width: 100%;
+    color: #222222;
 }
+
 .hotal_pricing_table .paragraph {
     padding: 0 58px;
     padding-bottom: 40px;
 }
+
 /***************************************
 7. pricing end
 ****************************************/
@@ -491,37 +562,40 @@ img {
 /***************************************
 8. vedio start
 ****************************************/
-.hotal_main_wrapper .hotal_vedio_wrapper{
-    width:100%;
-    float:left;
-    background-image:url('../images/vedio_bg.jpg');
-    background-position:center center;
-    background-repeat:no-repeat;
-    background-size:cover;
-    margin-top:50px;
-    min-height:450px;
-    position:relative;
+.hotal_main_wrapper .hotal_vedio_wrapper {
+    width: 100%;
+    float: left;
+    background-image: url('../images/vedio_bg.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 50px;
+    min-height: 450px;
+    position: relative;
 }
-.hotal_vedio_wrapper .ovarlay{
-    position:absolute;
-    left:0;
-    top:0;
-    bottom:0;
-    right:0;
-    background-color:rgba(166, 139, 124, 0.2);
+
+.hotal_vedio_wrapper .ovarlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(166, 139, 124, 0.2);
 }
-.hotal_vedio_wrapper .ovarlay a{
-    position:absolute;
-    left:50%;
-    top:50%;
-    transform:translate(-50%,-50%);
-    width:78px;
-    line-height:78px;
-    text-align:center;
-    height:78px;
-    border-radius:78px;
-    background-color:#ffffff;
+
+.hotal_vedio_wrapper .ovarlay a {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 78px;
+    line-height: 78px;
+    text-align: center;
+    height: 78px;
+    border-radius: 78px;
+    background-color: #ffffff;
 }
+
 /***************************************
 8. vedio end
 ****************************************/
@@ -529,70 +603,81 @@ img {
 /***************************************
 9. happy client start
 ****************************************/
-.hotal_main_wrapper .hotal_happyclient_wrapper{
-    width:100%;
-    float:left;
-    background-color:#f6f6f6;
-    padding-top:120px;
-    padding-bottom:100px;
-    margin-bottom:50px;
+.hotal_main_wrapper .hotal_happyclient_wrapper {
+    width: 100%;
+    float: left;
+    background-color: #f6f6f6;
+    padding-top: 120px;
+    padding-bottom: 100px;
+    margin-bottom: 50px;
 }
-.hotal_happyclient_wrapper .hotal_clients{
-    width:100%;
-    float:left;
-    border-left:2px solid #a68b7c;
-    background-color:#ffffff;
-    padding:25px 0;
-    margin-bottom:20px;
+
+.hotal_happyclient_wrapper .hotal_clients {
+    width: 100%;
+    float: left;
+    border-left: 2px solid #a68b7c;
+    background-color: #ffffff;
+    padding: 25px 0;
+    margin-bottom: 20px;
 }
-.hotal_clients .client_img{
-    float:left;
-    width:200px;
+
+.hotal_clients .client_img {
+    float: left;
+    width: 200px;
 }
-.hotal_clients .client_img img{
-    display:inline-block;
+
+.hotal_clients .client_img img {
+    display: inline-block;
 }
-.hotal_clients .client_detail{
+
+.hotal_clients .client_detail {
     width: calc(100% - 200px);
-    float:left;
+    float: left;
 }
-.hotal_clients .client_detail p{
-    padding-right:40px;
-    padding-top:20px;
-    padding-bottom:15px;
+
+.hotal_clients .client_detail p {
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 15px;
 }
-.hotal_clients .client_detail h3{
-    float:left;
-    width:100%;
-    margin:0;
-    font-size:14px;
+
+.hotal_clients .client_detail h3 {
+    float: left;
+    width: 100%;
+    margin: 0;
+    font-size: 14px;
 }
-.hotal_clients .client_detail h3 i{
-    color:#e7b60d;
-    margin-right:2px;
+
+.hotal_clients .client_detail h3 i {
+    color: #e7b60d;
+    margin-right: 2px;
 }
-.hotal_clients .client_detail h3 i:last-child{
-    color:#c3c3c3;
-    margin-right:0px;
+
+.hotal_clients .client_detail h3 i:last-child {
+    color: #c3c3c3;
+    margin-right: 0px;
 }
-.hotal_clients .client_detail h2{
-    float:left;
-    margin:0;
-    padding-top:10px;
-    font-size:12px;
-    color:#222222;
-    font-weight:400;
-    text-transform:uppercase;
+
+.hotal_clients .client_detail h2 {
+    float: left;
+    margin: 0;
+    padding-top: 10px;
+    font-size: 12px;
+    color: #222222;
+    font-weight: 400;
+    text-transform: uppercase;
 }
-.hotal_clients .client_detail span{
-    float:left;
-    margin:0;
-    padding-top:10px;
-    font-size:12px;
-    color:#999999;
-    font-weight:400;
-    margin-left:18px;
+
+.hotal_clients .client_detail span {
+    float: left;
+    margin: 0;
+    padding-top: 10px;
+    font-size: 12px;
+    color: #999999;
+    font-weight: 400;
+    margin-left: 18px;
 }
+
 /***************************************
 9. happy client end
 ****************************************/
@@ -600,80 +685,92 @@ img {
 /***************************************
 10. gallery start
 ****************************************/
-.hotal_main_wrapper .hotal_gallery_wrapper{
-    float:left;
-    width:100%;
-    padding:50px 0;
+.hotal_main_wrapper .hotal_gallery_wrapper {
+    float: left;
+    width: 100%;
+    padding: 50px 0;
 }
-.hotal_gallery_wrapper .hotal_gallery_content{
-    float:left;
-    width:100%;
-    padding:81px 0;
+
+.hotal_gallery_wrapper .hotal_gallery_content {
+    float: left;
+    width: 100%;
+    padding: 81px 0;
 }
-.hotal_gallery_content h6{
+
+.hotal_gallery_content h6 {
     font-size: 15px;
     font-weight: 300;
     width: 100%;
     color: #222222;
     line-height: 25px;
-    margin:0;
+    margin: 0;
     padding-bottom: 15px;
     float: left;
 }
-.hotal_gallery_content h1{
+
+.hotal_gallery_content h1 {
     font-size: 35px;
     font-weight: 300;
     width: 100%;
-    margin:0;
-    text-transform:capitalize;
-    padding-bottom:10px;
+    margin: 0;
+    text-transform: capitalize;
+    padding-bottom: 10px;
     color: #222222;
     line-height: 27px;
     float: left;
 }
-.hotal_gallery_content .paragraph{
-    padding:0 101px;
-    padding-bottom:28px;
+
+.hotal_gallery_content .paragraph {
+    padding: 0 101px;
+    padding-bottom: 28px;
 }
-.hotal_gallery_content .paragraph>a{
-        color:#a68b7c;
-        text-decoration:none;
-        cursor:pointer;
-    }
-.hotal_gallery_content a{
-    font-size:13px;
-    text-decoration:none;
-    font-weight:600;
-    text-transform:uppercase;
-    line-height:25px;
-        transition:all 0.25s ease-in;
-    -webkit-transition:all 0.25s ease-in;
-    -moz-transition:all 0.25s ease-in;
-    -o-transition:all 0.25s ease-in;
-    -ms-transition:all 0.25s ease-in;
+
+.hotal_gallery_content .paragraph>a {
+    color: #a68b7c;
+    text-decoration: none;
+    cursor: pointer;
 }
-.hotal_gallery_content a:hover{
-        color:#a68b7c;
+
+.hotal_gallery_content a {
+    font-size: 13px;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 25px;
+    transition: all 0.25s ease-in;
+    -webkit-transition: all 0.25s ease-in;
+    -moz-transition: all 0.25s ease-in;
+    -o-transition: all 0.25s ease-in;
+    -ms-transition: all 0.25s ease-in;
 }
-.hotal_gallery_wrapper .hotal_gallery{
-    float:left;
-    width:100%;
+
+.hotal_gallery_content a:hover {
+    color: #a68b7c;
 }
-.hotal_gallery_wrapper .hotal_gallery .gallery1{
-    width:295px;
-    float:left;
-    margin-right:5px;
+
+.hotal_gallery_wrapper .hotal_gallery {
+    float: left;
+    width: 100%;
 }
-.hotal_gallery_wrapper .hotal_gallery .gallery2{
-    width:255px;
-    float:left;
+
+.hotal_gallery_wrapper .hotal_gallery .gallery1 {
+    width: 295px;
+    float: left;
+    margin-right: 5px;
 }
-.hotal_gallery_wrapper .hotal_gallery .gallery3{
-    width:182px;
-    float:left;
-    margin-top:5px;
-    margin-right:4px;
+
+.hotal_gallery_wrapper .hotal_gallery .gallery2 {
+    width: 255px;
+    float: left;
 }
+
+.hotal_gallery_wrapper .hotal_gallery .gallery3 {
+    width: 182px;
+    float: left;
+    margin-top: 5px;
+    margin-right: 4px;
+}
+
 /***************************************
 10. gallery end
 ****************************************/
@@ -681,53 +778,60 @@ img {
 /***************************************
 11. best price start
 ****************************************/
-.hotal_main_wrapper .hotal_bestprice_wrapper{
-    width:100%;
-    float:left;
-    background-image:url('../images/bg2.jpg');
-    background-position:center center;
-    background-size:cover;
-    background-repeat:no-repeat;
-    position:relative;
-    margin:50px 0;
+.hotal_main_wrapper .hotal_bestprice_wrapper {
+    width: 100%;
+    float: left;
+    background-image: url('../images/bg2.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    margin: 50px 0;
 }
-.hotal_bestprice_wrapper .ovarlay{
-    width:100%;
-    float:left;
-    padding:70px 0;
-    background-color:rgba(166, 139, 124, 0.2);
+
+.hotal_bestprice_wrapper .ovarlay {
+    width: 100%;
+    float: left;
+    padding: 70px 0;
+    background-color: rgba(166, 139, 124, 0.2);
 
 }
-.hotal_bestprice_wrapper .hotal_bestprice_detail{
-    width:100%;
-    float:left;
+
+.hotal_bestprice_wrapper .hotal_bestprice_detail {
+    width: 100%;
+    float: left;
 }
-.hotal_bestprice_detail .btn2{
-    background-color:#ffffff;
-    color:#222222;
-    float:none;
-    display:inline-block;
+
+.hotal_bestprice_detail .btn2 {
+    background-color: #ffffff;
+    color: #222222;
+    float: none;
+    display: inline-block;
 }
-.hotal_bestprice_detail .btn2:hover{
-    background-color:#a68b7c;
-    color:#ffffff;
+
+.hotal_bestprice_detail .btn2:hover {
+    background-color: #a68b7c;
+    color: #ffffff;
 }
-.hotal_bestprice_detail h1{
-    float:left;
-    font-size:35px;
-    width:100%;
-    margin:0;
-    padding-bottom:25px;
-    color:#ffffff;
-    line-height:37px;
-    font-weight:300;
+
+.hotal_bestprice_detail h1 {
+    float: left;
+    font-size: 35px;
+    width: 100%;
+    margin: 0;
+    padding-bottom: 25px;
+    color: #ffffff;
+    line-height: 37px;
+    font-weight: 300;
 }
-.hotal_bestprice_detail .paragraph{
+
+.hotal_bestprice_detail .paragraph {
     color: #ffffff;
     width: 735px;
     margin: 0 auto;
-    padding-bottom:25px;
+    padding-bottom: 25px;
 }
+
 /***************************************
 11. best price end
 ****************************************/
@@ -735,42 +839,48 @@ img {
 /***************************************
 12. newsletter start
 ****************************************/
-.hotal_main_wrapper .hotal_newsletter{
-    width:100%;
-    float:left;
-    padding:50px 0;
+.hotal_main_wrapper .hotal_newsletter {
+    width: 100%;
+    float: left;
+    padding: 50px 0;
 }
-.hotal_newsletter .newslatter_detail{
-    display:inline-block;
+
+.hotal_newsletter .newslatter_detail {
+    display: inline-block;
 }
-.newslatter_detail  label{
-    font-size:18px;
-    font-weight:600;
-    line-height:44px;
-    float:left;
-    margin:0;
-    color:#222222;
-    padding-right:30px;
+
+.newslatter_detail label {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 44px;
+    float: left;
+    margin: 0;
+    color: #222222;
+    padding-right: 30px;
 }
-.newslatter_detail input{
-    width:400px;
-    height:50px;
-    line-height:50px;
-    float:left;
-    margin-right:20px;
-    padding:0 20px;
-    border:1px solid #ebebeb;
-    font-size:14px;
-    font-weight:400;
+
+.newslatter_detail input {
+    width: 400px;
+    height: 50px;
+    line-height: 50px;
+    float: left;
+    margin-right: 20px;
+    padding: 0 20px;
+    border: 1px solid #ebebeb;
+    font-size: 14px;
+    font-weight: 400;
     font-family: 'Roboto', sans-serif;
 }
-.newslatter_detail .btn2{
-    background-color:#a68b7c;
-    padding:0 44px;
+
+.newslatter_detail .btn2 {
+    background-color: #a68b7c;
+    padding: 0 44px;
 }
-.newslatter_detail .btn2:hover{
-    background-color:#222222;
+
+.newslatter_detail .btn2:hover {
+    background-color: #222222;
 }
+
 /***************************************
 12. newsletter end
 ****************************************/
@@ -778,49 +888,56 @@ img {
 /***************************************
 13. footer start
 ****************************************/
-.hotal_main_wrapper .hotal_footer_wrapper{
-    width:100%;
-    float:left;
-    background-color:#1a1917;
-    margin-top:50px;
+.hotal_main_wrapper .hotal_footer_wrapper {
+    width: 100%;
+    float: left;
+    background-color: #1a1917;
+    margin-top: 50px;
 }
-.hotal_footer_wrapper .footer_text{
-    float:left;
-    padding:30px 0;
+
+.hotal_footer_wrapper .footer_text {
+    float: left;
+    padding: 30px 0;
 }
-.hotal_footer_wrapper .footer_text h6{
-    float:left;
-    width:100%;
-    font-size:14px;
-    font-weight:400;
-    line-height:27px;
-    color:#666666;
-    margin:0;
+
+.hotal_footer_wrapper .footer_text h6 {
+    float: left;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #666666;
+    margin: 0;
 }
-.hotal_footer_wrapper .footer_social_icon{
-    float:right;
-    padding:36px 0;
+
+.hotal_footer_wrapper .footer_social_icon {
+    float: right;
+    padding: 36px 0;
 }
-.hotal_footer_wrapper .footer_social_icon ul{
-    margin:0;
-    padding:0;
-    list-style:none;
+
+.hotal_footer_wrapper .footer_social_icon ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
-.hotal_footer_wrapper .footer_social_icon ul li{
-    float:left;
-    margin-right:13px;
+
+.hotal_footer_wrapper .footer_social_icon ul li {
+    float: left;
+    margin-right: 13px;
 }
-.hotal_footer_wrapper .footer_social_icon ul li a{
-    width:15px;
-    height:15px;
-    float:left;
-    line-height:15px;
-    background-color:#666666;
-    border-radius:3px;
-    font-size:11px;
-    text-align:center;
-    color:#222222;
+
+.hotal_footer_wrapper .footer_social_icon ul li a {
+    width: 15px;
+    height: 15px;
+    float: left;
+    line-height: 15px;
+    background-color: #666666;
+    border-radius: 3px;
+    font-size: 11px;
+    text-align: center;
+    color: #222222;
 }
+
 /***************************************
 13. footer end
 ****************************************/
@@ -857,6 +974,7 @@ Preloader
     margin: -70px 0 0 -50px;
     /* is width and height divided by two */
 }
+
 /* Back to top */
 .back-to-top {
     position: fixed;
@@ -872,7 +990,8 @@ Preloader
     -webkit-transition: opacity 0.2s ease-out;
     transition: opacity 0.2s ease-out;
     opacity: 0;
-    color: #ffffff;font-size: 25px;
+    color: #ffffff;
+    font-size: 25px;
 }
 
 .back-to-top.show {
@@ -890,7 +1009,31 @@ Preloader
         width: 30px;
         height: 30px;
     }
-    .copyright{
+
+    .copyright {
         text-align: center;
     }
 }
+
+/* Clases formulario */
+.form-header h1{
+    text-align: center;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    font-weight: 300;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.form-label{
+    color: #000;
+    font-size: 15px;
+}
+
+/* End Clases formulario */
+/* Youtube */
+.youtube{
+    width: 100%;
+    height: 100%;
+}
+/* End Youtube */
