@@ -293,8 +293,8 @@ img {
     float: left;
     width: 100%;
     margin: 0;
-    font-weight: 600;
     text-transform: capitalize;
+    font-weight: 600;
     color: #ffffff;
     line-height: 55px;
     padding-bottom: 27px;
@@ -1037,3 +1037,6 @@ Preloader
     height: 100%;
 }
 /* End Youtube */
+.parapente{
+    color: #29889B;
+}
