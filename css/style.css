@@ -1037,6 +1037,13 @@ Preloader
     height: 100%;
 }
 /* End Youtube */
+/* Link de Parapente en Footer */
 .parapente{
     color: #29889B;
 }
+/* End Link de Parapente en Footer */
+/* Logo Menú */
+.logo{
+    width: 90%;
+}
+/* Logo Menú */
