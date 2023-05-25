@@ -927,15 +927,21 @@ img {
 }
 
 .hotal_footer_wrapper .footer_social_icon ul li a {
-    width: 15px;
-    height: 15px;
+    width: 25px;
+    height: 25px;
     float: left;
     line-height: 15px;
-    background-color: #666666;
     border-radius: 3px;
-    font-size: 11px;
+    font-size: 24px;
     text-align: center;
-    color: #222222;
+}
+
+.fa-facebook-square{
+    color: #4267B2;
+}
+
+.fa-instagram{
+    color: #DB2D82;
 }
 
 /***************************************
@@ -961,13 +967,13 @@ Preloader
 #status {
     width: 135px;
     height: 143px;
-    background-size: 400px;
+    background-size: 143px;
     position: absolute;
     left: 50%;
     /* centers the loading animation horizontally one the screen */
     top: 50%;
     /* centers the loading animation vertically one the screen */
-    background-image: url(../images/preloader.gif);
+    background-image: url(../images/preloader11.gif);
     /* path to your loading animation */
     background-repeat: no-repeat;
     background-position: center;
@@ -979,7 +985,7 @@ Preloader
 .back-to-top {
     position: fixed;
     bottom: 40px;
-    right: 40px;
+    left: 40px;
     z-index: 9999;
     width: 35px;
     height: 35px;
@@ -1044,6 +1050,52 @@ Preloader
 /* End Link de Parapente en Footer */
 /* Logo Menú */
 .logo{
-    width: 90%;
+    width: 100%;
 }
 /* Logo Menú */
+/* Botón Reservas */
+.btn-reserva{
+    color: #fff;
+    background-color: #9C927B;
+    border-color: #706858;
+}
+/* End Botón Reservas */
+/* Color Nav */
+a.nav-link {
+    color: white !important;
+}
+/* End Color Nav */
+/* Gallery */
+.clear {
+  clear: both;
+  float: none;
+  width: 100%;
+}
+
+.gallery a img {
+  float: left;
+  width: 20%;
+  height: auto;
+  border: 2px solid #fff;
+  -webkit-transition: -webkit-transform .15s ease;
+  -moz-transition: -moz-transform .15s ease;
+  -o-transition: -o-transform .15s ease;
+  -ms-transition: -ms-transform .15s ease;
+  transition: transform .15s ease;
+  position: relative;
+}
+
+.gallery a:hover img {
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+  z-index: 5;
+}
+
+.gallery a.big img {
+  width: 40%;
+}
+/* End Gallery */
+
